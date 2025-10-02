@@ -1,0 +1,15 @@
+{
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "readme.md"
+      ],
+      "matchStrings": [
+         "//s*(?<currentValue>.*)//s*"
+      ],
+      "depNameTemplate": "xmldoc",
+      "datasourceTemplate": "npm"
+    }
+  ]
+}
